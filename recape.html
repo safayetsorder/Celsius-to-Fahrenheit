@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0/themes.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+    <div class="flex justify-center ">
+        <from class="fieldset w-1/2 bg-base-200 border border-base-300 px-18 py-8 bg-black rounded-box">
+            <legend class="fieldset-legend text-white text-3xl flex justify-center">Celsius to Fahrenheit</legend>
+
+            <label class="fieldset-label text-white">Celsius </label>
+            <input id="celsiusInput" type="text" class="input w-full" placeholder="Enter Celsius in here" />
+
+            <p id="result" class="my-6 text-base text-center"></p>
+
+            <button id="makeFahrenheit"
+                class="bg-blue-500 text-white hover:bg-white hover:text-black px-10 py-4 text-lg rounded-box w-full mt-4">Make
+                Fahrenheit</button>
+        </from>
+    </div>
+
+    <script src="/recape.js"></script>
+</body>
+
+</html>

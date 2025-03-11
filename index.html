@@ -13,8 +13,17 @@
 
 <body>
 
-    <div>
-        Hello world
+    <div class="flex justify-center">
+        <form class="fieldset w-2xl bg-base-200 border border-base-300 p-4 rounded-box">
+            <legend class="fieldset-legend text-center text-lg block">Celsius to Fahrenheit</legend>
+
+            <label class="fieldset-label">Celsius</label>
+            <input id="celsiusInput" type="text" class="input w-full" placeholder="Enter Celsius in here" />
+
+            <p id="result" class="my-4 text-base text-center"></p>
+
+            <button id="makeFahrenheit" class="btn btn-neutral mt-4">Make Fahrenheit</button>
+        </form>
     </div>
 
     <script src="main.js"></script>
